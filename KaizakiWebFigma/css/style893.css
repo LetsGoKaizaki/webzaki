@@ -1,0 +1,831 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  background-color: #EFFFE9;
+}
+
+.top-bar {
+  background: #38761D;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+}
+
+.top-bar img {
+  width: 30px;
+}
+
+.title-image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 300px;
+}
+
+.title-image img {
+  border-radius: 100%;
+  margin-top: -290px;
+}
+
+
+.title-text1 {
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+  margin-top: -190px;
+  line-height: 1;
+  font-family: 'Zen Maru Gothic';
+  text-shadow: 3px 3px 5px black;
+}
+
+.title-text2 {
+  text-align: center;
+  font-size: 55px;
+  color: #fff;
+  line-height: 0.5;
+  font-family: 'Zen Maru Gothic';
+  text-shadow: 3px 3px 5px black;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 25px;
+  color: #38761D;
+  font-family: 'Zen Maru Gothic';
+  margin-top: 120px;
+  font-weight: bold;
+}
+
+.setumei {
+  line-height: 1.5;
+  margin: 30px;
+  font-size: 13.5px;
+}
+
+.btn {
+  background-color: #4BA027;
+  color: #fff;
+  padding: 0.5rem;
+  width: 35%;
+  border-radius: 10px;
+  position: relative;
+  top: 40px;
+  left: 50px;
+
+}
+
+
+.kitami {
+  display: flex;
+  justify-content: right;
+}
+
+.kitami img {
+  position: absolute;
+  right: 10px;
+  /* 右から50px */
+  top: 540px;
+  /* 上から100px */
+  width: 180px;
+}
+
+.subsubtitle {
+  position: relative;
+  margin-bottom: 0.5rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  font-size: 35px;
+  color: #353535;
+  text-align: center;
+  margin-top: 120px;
+  z-index: 0;
+  font-family: 'Zen Maru Gothic';
+  color: #38761D;
+}
+
+.subsubtitle::before {
+  position: absolute;
+  left: -10px;
+  top: -25px;
+  width: 100%;
+  height: 10px;
+  transform: skew(-45deg);
+  background-image: repeating-linear-gradient(90deg, transparent 0 4px, #b3ddb5 4px 8px);
+  content: '';
+  z-index: 1;
+}
+
+.acsentImage {
+  display: flex;
+  justify-content: center;
+}
+
+.acsentImage img {
+  border-radius: 100%;
+  margin-right: 350px;
+}
+
+#image {
+  position: relative;
+
+}
+
+#image .acsentImage {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.select img {
+  width: 85px;
+}
+
+.kitami {
+  text-align: center;
+}
+
+.ohotuku {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  font-size: 15px;
+  font-family: 'Zen Maru Gothic';
+  font-weight: bold;
+  color: #7D0000;
+  padding-top: 30px;
+}
+
+.mapname {
+  /*北見*/
+  background-color: #38761D;
+  margin-top: -45px;
+  padding-top: 5rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  font-size: 50px;
+  font-family: 'Zen Maru Gothic';
+  font-weight: bold;
+  color: #fff;
+}
+
+.dekaicon {
+  margin-top: -100px;
+  margin-left: 180px;
+}
+
+.dekaicon img {
+  width: 200px;
+}
+
+.sub3 {
+  /*自然とグルメが楽しめまち*/
+  font-family: 'Zen Maru Gothic';
+  font-size: 24px;
+  color: #38761D;
+  margin-left: 15px;
+  margin-top: -60px;
+  padding-bottom: 15px;
+
+}
+
+
+.setumei2 {
+  padding: 0 20px 0 20px;
+  position: relative;
+}
+
+
+.setumei2::before {
+  /*線*/
+  position: absolute;
+  left: -10px;
+  top: 120px;
+  width: 150%;
+  height: 10px;
+  transform: skew(-45deg);
+  background-image: repeating-linear-gradient(90deg, transparent 0 4px, #b3ddb5 4px 8px);
+  content: '';
+  z-index: 1;
+}
+
+
+.kankou {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.kankou2 {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.bag {
+  width: 50px;
+}
+
+
+.gurume {
+  display: flex;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.gurume p {
+  font-family: 'Zen Maru Gothic';
+  font-size: 40px;
+  color: #7D0000;
+}
+
+.bag2 {
+  width: 50px;
+}
+
+
+.kankou p {
+  font-family: 'Zen Maru Gothic';
+  font-size: 40px;
+  color: #7D0000;
+}
+
+.kankou2 p {
+  font-family: 'Zen Maru Gothic';
+  font-size: 40px;
+  color: #7D0000;
+}
+
+.kira {
+  margin-top: -15px
+}
+
+.kira2 {
+  margin-top: 25px;
+  margin-left: -20px;
+}
+
+
+
+.spot {
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.spot h3 {
+  /*場所名*/
+  margin-top: -7px;
+  line-height: 1.5;
+  font-size: 15px;
+  color: #7D0000;
+  font-family: 'Zen Maru Gothic';
+}
+
+.spot p {
+  /*値段*/
+  color: #FF1717;
+  font-family: 'Zen Maru Gothic';
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: -15px;
+}
+
+
+.Point {
+
+  border-radius: 10%;
+  width: 100%;
+}
+
+.Point p {
+  font-family: 'Hachi Maru Pop';
+  margin-left: 60px;
+  color: #38761D;
+  font-size: 15px;
+  margin-top: -30px;
+}
+
+.Point li {
+  margin-left: -18px;
+  margin-top: 10px;
+  line-height: 1;
+  font-size: 12px;
+  padding: 0 10px 10px 0;
+}
+
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* 2列 */
+}
+
+
+.mapname2 {
+  /*北見*/
+  background-color: #38761D;
+  margin-top: -50px;
+  padding-top: 4rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  font-size: 50px;
+  font-family: 'Zen Maru Gothic';
+  font-weight: bold;
+  color: #fff;
+}
+
+
+.setumei3 {
+  padding: 0 20px 0 20px;
+  position: relative;
+}
+
+
+.setumei3::before {
+  /*線*/
+  position: absolute;
+  left: -10px;
+  top: 0px;
+  width: 150%;
+  height: 10px;
+  transform: skew(-45deg);
+  background-image: repeating-linear-gradient(90deg, transparent 0 4px, #b3ddb5 4px 8px);
+  content: '';
+  z-index: 1;
+}
+
+
+
+
+
+
+.yado {
+  /*家族におすすめの宿*/
+  display: flex;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.ya {
+  width: 50px;
+  padding: 0;
+}
+
+.yado p {
+  font-family: 'Zen Maru Gothic';
+  font-size: 30px;
+  color: #7D0000;
+}
+
+
+
+.spot {
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.spot h3 {
+  /*場所名*/
+  margin-top: -7px;
+  line-height: 1.5;
+  font-size: 15px;
+  color: #7D0000;
+  font-family: 'Zen Maru Gothic';
+}
+
+.spot p {
+  /*値段*/
+  color: #FF1717;
+  font-family: 'Zen Maru Gothic';
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: -15px;
+}
+
+
+.Point {
+  background-color: #FFFFFF;
+  border-radius: 10%;
+  width: 100%;
+}
+
+.Point p {
+  font-family: 'Hachi Maru Pop';
+  margin-left: 60px;
+  color: #38761D;
+  font-size: 15px;
+  margin-top: -30px;
+}
+
+.Point li {
+  margin-left: -18px;
+  margin-top: 10px;
+  line-height: 1;
+  font-size: 12px;
+  padding: 0 10px 10px 0;
+}
+
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* 2列 */
+}
+
+
+
+.container {
+  display: flex;
+}
+
+.item {
+  padding: 10px;
+  margin: 10px;
+}
+
+.item h2 {
+  font-size: 16px;
+  font-family: 'Zen Maru Gothic';
+  color: #7D0000;
+  line-height: .5;
+  margin-top: -15px;
+}
+
+.item p {
+  font-size: 15px;
+  font-family: 'Zen Maru Gothic';
+  color: #FF1717;
+  font-weight: bold;
+  line-height: .5;
+}
+
+.spot h3{
+  font-size: 13px;
+}
+
+.poi {
+  text-align: center;
+  color: #38761D;
+  font-family: 'Hachi Maru Pop';
+  font-weight: bold;
+  margin-top: -40px;
+}
+
+.box {
+  margin-left: 200px;
+  margin-right: 25px;
+  margin-top: -90px;
+  background-color: #FFFFFF;
+  border-radius: 15%;
+  padding: 1px 10px 10px 10px;
+  margin-bottom: 30px;
+}
+
+
+
+
+.box li {
+  font-size: 13px;
+  margin-left: -12px;
+}
+
+li::marker {
+  color: #38761D;
+  /* ポッチや数字の色だけ変わる */
+}
+
+
+.box ul {
+  display: block;
+  padding-left: 20px;
+  margin: 5px 0;
+}
+
+
+.setumei4 {
+  padding: 0 20px 0 20px;
+  position: relative;
+}
+
+.setumei4::before {
+  position: absolute;
+  left: -10px;
+  top: 0px;
+  width: 150%;
+  height: 10px;
+  transform: skew(-45deg);
+  background-image: repeating-linear-gradient(90deg, transparent 0 4px, #b3ddb5 4px 8px);
+  content: '';
+  z-index: 1;
+}
+
+
+
+
+
+
+
+
+.gallery3 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.item3 {
+  text-align: center;
+  font-family: 'Zen Maru Gothic';
+  font-weight: bold;
+  color: #7D0000;
+}
+
+.item3 img {
+  width: 100px;
+}
+
+.item3 p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+
+.setumei5 {
+  padding: 0 20px 0 20px;
+  position: relative;
+}
+
+
+.setumei5::before {
+  position: absolute;
+  left: -10px;
+  top: 30px;
+  width: 150%;
+  height: 10px;
+  transform: skew(-45deg);
+  background-image: repeating-linear-gradient(90deg, transparent 0 4px, #b3ddb5 4px 8px);
+  content: '';
+  z-index: 1;
+}
+
+
+.fotter {
+  margin-top: 40px;
+  padding: 90px;
+  background-color: #38761D;
+  text-align: center;
+  position: relative;
+}
+
+.fotter img {
+  width: 60px;
+}
+
+
+.fotter h2 {
+  color: #ffffff;
+  font-family: 'Zen Maru Gothic';
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+
+.fotter p {
+  color: #ffffff;
+  font-family: 'Zen Maru Gothic';
+  font-weight: bold;
+  font-size: 20px;
+
+  position: absolute;
+
+  right: 20px;
+  bottom: 20px;
+  margin: 0;
+}
+
+
+
+/*=========================================================*/
+
+
+/* ========================================================= */
+/* デスクトップ版 (900px以上)                                  */
+/* ========================================================= */
+@media (min-width: 900px) {
+
+  /* コンテンツ全体を中央寄せ・幅制限 */
+  body {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  /* --- top-bar：画面幅いっぱい・fixed --- */
+  .top-bar {
+    position: fixed;
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+.title-image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 300px;
+}
+
+.title-image img {
+  border-radius: 100%;
+  margin-top: -250px;
+}
+
+
+.title-text1 {
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  margin-top: -190px;
+  line-height: 1;
+  font-family: 'Zen Maru Gothic';
+  text-shadow: 3px 3px 5px black;
+}
+
+.title-text2 {
+  text-align: center;
+  font-size: 60px;
+  color: #fff;
+  line-height: 0.5;
+  font-family: 'Zen Maru Gothic';
+  text-shadow: 3px 3px 5px black;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 30px;
+  color: #38761D;
+  font-family: 'Zen Maru Gothic';
+  margin-top: 150px;
+  font-weight: bold;
+}
+
+
+
+  .setumei {
+    line-height: 1.5;
+    margin: 80px;
+    font-size: 13.5px;
+    margin-left: 130px;
+  }
+
+
+  .kitami {
+  display: flex;
+  justify-content: right;
+}
+
+.kitami img {
+  position: absolute;
+  right: 10px;
+  /* 右から50px */
+  top: 40px;
+  /* 上から100px */
+  width: 180px;
+}
+
+  
+
+
+  /* --- mapname / mapname2：背景を画面端まで --- */
+  .mapname,
+  .mapname2 {
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    padding-left: calc(2rem + (50vw - 50%));
+  }
+
+  /* --- fotter：背景を画面端まで --- */
+  .fotter {
+    position: relative;
+    z-index: 0;
+  }
+
+  .fotter::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 100%;
+    background-color: #38761D;
+    z-index: -1;
+  }
+
+  /* カードを4列に */
+  .card {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* --- 斜線パターンを画面両端まで伸ばす --- */
+  .subsubtitle::before,
+  .setumei2::before,
+  .setumei3::before,
+  .setumei4::before,
+  .setumei5::before {
+    left: 50%;
+    transform: skew(-45deg) translateX(-50%);
+    width: 100vw;
+  }
+
+  /* デスクトップでは説明文が1行になるため、線の位置を下げる */
+  .setumei2::before {
+    top: 95px;
+  }
+
+  /* 宿の画像を少し大きく */
+  .item img {
+    width: 180px;
+  }
+
+
+  .container {
+    display: flex;
+    margin-left: 120px;
+    /*aaaaaaaaaaaaaaaaaaaaaaaaaここいじればみぎ*/
+  }
+
+  .item {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .item img {
+    margin-left: -20px;
+  }
+
+  .item h2 {
+    font-size: 16px;
+    font-family: 'Zen Maru Gothic';
+    color: #7D0000;
+    line-height: .5;
+    margin-top: -1px;
+  }
+
+  .item p {
+    font-size: 15px;
+    font-family: 'Zen Maru Gothic';
+    color: #FF1717;
+    font-weight: bold;
+    line-height: .5;
+  }
+
+  .box li {
+    margin-left: 30px;
+  }
+
+  .poi {
+    text-align: center;
+    color: #38761D;
+    font-family: 'Hachi Maru Pop';
+    font-weight: bold;
+    margin-top: -40px;
+  }
+
+  .box {
+    margin-top: -90px;
+    background-color: #FFFFFF;
+    border-radius: 15%;
+    padding: 1px 10px 10px 1px;
+    margin-bottom: 30px;
+    margin-left: 330px;
+    /* 大きくするほど右へ */
+    margin-right: 25px;
+    /* 小さくするほど右へ */
+  }
+
+}
